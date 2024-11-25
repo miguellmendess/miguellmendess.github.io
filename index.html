@@ -2097,43 +2097,43 @@
 
 
         <script type="text/javascript">
-            document.addEventListener('DOMContentLoaded', function () {
-                // Move menu below slider
-
-                /*--------------------------
-     Newsletter Popup Js
-  ---------------------------- */
-
-                let newsletterPopupContainer = document.getElementById('newsletter-popup-container');
-                newsletterPopupContainer && newsletterPopupContainer.addEventListener('mouseup', function (e) {
-                    const newsLatterPop = document.getElementById('newsletter-pop-up');
-                    if (e.target.id != newsLatterPop.id && !newsLatterPop.contains(e.target)) {
-                        newsletterPopupContainer.style.display = 'none';
-                    }
-                });
-                const hidePopup = document.getElementsByClassName('hide-popup');
-                for (var i = 0; i < hidePopup.length; i++) {
-                    hidePopup[i].addEventListener('click', function () {
-                        newsletterPopupContainer.style.display = 'none';
-                    });
-                }
-                const dontShow = document.getElementById('dont_show');
-                dontShow && dontShow.addEventListener('click', function () {
-                    const date = new Date();
-                    date.setTime(date.getTime() + (1 * 24 * 60 * 60 * 1000));
-                    const expires = "; expires=" + date.toGMTString();
-                    document.cookie = "popup_cookie=pclosed" + expires + "; path=/";
-                    const hidePopup = document.getElementsByClassName('hide-popup');
-                    for (let i = 0; i < hidePopup.length; i++) {
-                        hidePopup[i].click();
-                    }
-                });
-
-                if (document.cookie.indexOf('popup_cookie=pclosed') == -1) {
-                    newsletterPopupContainer.style.display = 'block';
-                }
-
-            });
+  //           document.addEventListener('DOMContentLoaded', function () {
+  //               // Move menu below slider
+  //
+  //               /*--------------------------
+  //    Newsletter Popup Js
+  // ---------------------------- */
+  //
+  //               let newsletterPopupContainer = document.getElementById('newsletter-popup-container');
+  //               newsletterPopupContainer && newsletterPopupContainer.addEventListener('mouseup', function (e) {
+  //                   const newsLatterPop = document.getElementById('newsletter-pop-up');
+  //                   if (e.target.id != newsLatterPop.id && !newsLatterPop.contains(e.target)) {
+  //                       newsletterPopupContainer.style.display = 'none';
+  //                   }
+  //               });
+  //               const hidePopup = document.getElementsByClassName('hide-popup');
+  //               for (var i = 0; i < hidePopup.length; i++) {
+  //                   hidePopup[i].addEventListener('click', function () {
+  //                       newsletterPopupContainer.style.display = 'none';
+  //                   });
+  //               }
+  //               const dontShow = document.getElementById('dont_show');
+  //               dontShow && dontShow.addEventListener('click', function () {
+  //                   const date = new Date();
+  //                   date.setTime(date.getTime() + (1 * 24 * 60 * 60 * 1000));
+  //                   const expires = "; expires=" + date.toGMTString();
+  //                   document.cookie = "popup_cookie=pclosed" + expires + "; path=/";
+  //                   const hidePopup = document.getElementsByClassName('hide-popup');
+  //                   for (let i = 0; i < hidePopup.length; i++) {
+  //                       hidePopup[i].click();
+  //                   }
+  //               });
+  //
+  //               if (document.cookie.indexOf('popup_cookie=pclosed') == -1) {
+  //                   newsletterPopupContainer.style.display = 'block';
+  //               }
+  //
+  //           });
         </script>
         <style>
 
@@ -2182,15 +2182,15 @@
                     <a
                             href="https://api.whatsapp.com/send?phone=554899589513&text=Olá,%20acessei%20o%20site%20e%20gostaria%20de%20mais%20informações%20sobre%20os%20acessórios!"
                             target="_blank"
-                            style="background: #F57500; width: 100%; height: 200px;
+                            style="background: #0d811c; width: 100%; height: 200px;
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
                             color: white;">
                         <i class="fa-brands fa-whatsapp" style="font-size: 30px;"></i>
-                        <div style="font-size: 10px; margin-top: 30px;">
-                            Fale conosco !
+                        <div style="margin-top: 30px;font-size: 10px;text-align: center;font-weight: bold; text-transform: uppercase">
+                            Fale</br>conosco
                         </div>
                     </a>
                 </div>
@@ -2220,9 +2220,9 @@
                                             <div class="text-content p-0 shadow-none rounded-0 false"
                                                  style="position:absolute;top:55%;text-align:left;right:0%;left:7%;width:45%;">
 
-                                                <h1 class="title1" style="font-size:20px; color:#ffffff;">
-                                                    Faça parte da alcatéia
-                                                </h1>
+<!--                                                <h1 class="title1" style="font-size:20px; color:#ffffff;">-->
+<!--                                                    Faça parte da alcatéia-->
+<!--                                                </h1>-->
 
 
                                                 <h2 class="sub-title" style="font-size:86px;color:#ffffff;">
@@ -2231,7 +2231,7 @@
 
                                                 <div class="banner7-des">
 
-                                                    <p style="font-size:15px;color:#ffffff; ">
+                                                    <p style="font-size:15px;color:#ffffff; text-transform: none;">
                                                         Desde 2017 entregando qualidade e resistência em acessórios para
                                                         motos
                                                     </p>
@@ -2245,7 +2245,7 @@
                                                        href="https://api.whatsapp.com/send?phone=554899589513&text=Olá,%20acessei%20o%20site%20e%20gostaria%20de%20mais%20informações%20sobre%20os%20acessórios!"
                                                        target="_blank"
                                                        style="background-color:rgba(0,0,0,0) !important;border-color: #ffffff !important;color:#ffffff !important;"
-                                                       onmouseover="this.style=&#39;background-color:#ffffff !important;  !important;&#39;;"
+                                                       onmouseover="this.style=&#39;background-color:#F57500 !important; color:#fff !important;&#39;;"
                                                        onmouseout="this.style=&#39;color:#ffffff !important;border-color: #ffffff !important;background-color:rgba(0,0,0,0) !important&#39;;">
                                                         entre em contato</a>
                                                 </div>
@@ -4264,84 +4264,84 @@
             </style>
 
         </div>
-        <div id="shopify-section-template--16235502829638__1527121164309" class="shopify-section">
-            <div class="main-row news layer-background " data-section-id="template--16235502829638__1527121164309">
-                <div class="container ">
-                    <div class="row "><!-- Newsletter Area Start -->
-                        <div class="newletter-subscribe-container">
-                            <div class="container-inner">
-                                <div class="newletter-subscribe">
-                                    <div id="boxes-normal" class="newletter-container">
-                                        <div style="" id="dialog-normal" class="window">
-                                            <div class="box">
-                                                <div class="module-title scroll-trigger animate--slide-in scroll-trigger--offscreen">
-                                                    <p class="sub-title">Nossas novidades</p>
-                                                    <h2>Inscreva-se para receber novas promoções</h2>
-                                                </div>
-                                                <div class="box-content newleter-content scroll-trigger animate--slide-in scroll-trigger--offscreen">
-                                                    <div id="frm_subscribe-normal">
+<!--        <div id="shopify-section-template&#45;&#45;16235502829638__1527121164309" class="shopify-section">-->
+<!--            <div class="main-row news layer-background " data-section-id="template&#45;&#45;16235502829638__1527121164309">-->
+<!--                <div class="container ">-->
+<!--                    <div class="row ">&lt;!&ndash; Newsletter Area Start &ndash;&gt;-->
+<!--                        <div class="newletter-subscribe-container">-->
+<!--                            <div class="container-inner">-->
+<!--                                <div class="newletter-subscribe">-->
+<!--                                    <div id="boxes-normal" class="newletter-container">-->
+<!--                                        <div style="" id="dialog-normal" class="window">-->
+<!--                                            <div class="box">-->
+<!--                                                <div class="module-title scroll-trigger animate&#45;&#45;slide-in scroll-trigger&#45;&#45;offscreen">-->
+<!--                                                    <p class="sub-title">Nossas novidades</p>-->
+<!--                                                    <h2>Inscreva-se para receber novas promoções</h2>-->
+<!--                                                </div>-->
+<!--                                                <div class="box-content newleter-content scroll-trigger animate&#45;&#45;slide-in scroll-trigger&#45;&#45;offscreen">-->
+<!--                                                    <div id="frm_subscribe-normal">-->
 
 
-                                                        <div id="subscribe-normal">
-                                                            <form method="post"
-                                                                  action="https://guara-template-theme.myshopify.com/contact#contact_form"
-                                                                  id="contact_form" accept-charset="UTF-8"
-                                                                  class="contact-form"><input type="hidden"
-                                                                                              name="form_type"
-                                                                                              value="customer"><input
-                                                                    type="hidden" name="utf8" value="✓">
+<!--                                                        <div id="subscribe-normal">-->
+<!--                                                            <form method="post"-->
+<!--                                                                  action="https://guara-template-theme.myshopify.com/contact#contact_form"-->
+<!--                                                                  id="contact_form" accept-charset="UTF-8"-->
+<!--                                                                  class="contact-form"><input type="hidden"-->
+<!--                                                                                              name="form_type"-->
+<!--                                                                                              value="customer"><input-->
+<!--                                                                    type="hidden" name="utf8" value="✓">-->
 
 
-                                                                <input type="hidden" name="contact[tags]"
-                                                                       value="newsletter">
-                                                                <input type="text" value=""
-                                                                       placeholder="Insira seu email aqui..."
-                                                                       name="contact[email]" id="subscribe_email-normal"
-                                                                       required=""
-                                                                       aria-label="Enter you email address here..."
-                                                                       autocorrect="off" autocapitalize="off">
-                                                                <a name="submitNewsletter" class="btn" type="submit"
-                                                                   onclick="this.parentNode.submit(); return false;">
-                                                                    <span>Inscrever</span>
-                                                                </a>
+<!--                                                                <input type="hidden" name="contact[tags]"-->
+<!--                                                                       value="newsletter">-->
+<!--                                                                <input type="text" value=""-->
+<!--                                                                       placeholder="Insira seu email aqui..."-->
+<!--                                                                       name="contact[email]" id="subscribe_email-normal"-->
+<!--                                                                       required=""-->
+<!--                                                                       aria-label="Enter you email address here..."-->
+<!--                                                                       autocorrect="off" autocapitalize="off">-->
+<!--                                                                <a name="submitNewsletter" class="btn" type="submit"-->
+<!--                                                                   onclick="this.parentNode.submit(); return false;">-->
+<!--                                                                    <span>Inscrever</span>-->
+<!--                                                                </a>-->
 
-                                                            </form>
-                                                        </div>
-
-
-                                                    </div>
-                                                    <!-- /#frm_subscribe -->
-                                                </div>
-                                                <!-- /.box-content -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.box -->
-                    </div>
-                </div>
-            </div>
-
-            <style>
-
-            </style>
-            <style>
+<!--                                                            </form>-->
+<!--                                                        </div>-->
 
 
-                #shopify-section-template--16235502829638__1527121164309 #subscribe_email-normal, #shopify-section-template--16235502829638__1527121164309 .btn {
-                    box-shadow: var(--bs-box-shadow-sm) !important;
-                }
+<!--                                                    </div>-->
+<!--                                                    &lt;!&ndash; /#frm_subscribe &ndash;&gt;-->
+<!--                                                </div>-->
+<!--                                                &lt;!&ndash; /.box-content &ndash;&gt;-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; /.box &ndash;&gt;-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <style>-->
+
+<!--            </style>-->
+<!--            <style>-->
 
 
-                #shopify-section-template--16235502829638__1527121164309 #subscribe_email-normal {
-                    border: 0px;
-                }
+<!--                #shopify-section-template&#45;&#45;16235502829638__1527121164309 #subscribe_email-normal, #shopify-section-template&#45;&#45;16235502829638__1527121164309 .btn {-->
+<!--                    box-shadow: var(&#45;&#45;bs-box-shadow-sm) !important;-->
+<!--                }-->
 
-            </style>
 
-        </div>
+<!--                #shopify-section-template&#45;&#45;16235502829638__1527121164309 #subscribe_email-normal {-->
+<!--                    border: 0px;-->
+<!--                }-->
+
+<!--            </style>-->
+
+<!--        </div>-->
 
     </div>
 
