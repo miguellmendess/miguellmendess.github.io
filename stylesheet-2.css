@@ -1755,7 +1755,7 @@ p:after {
 }
 .static2-guara-template3 .col-text a:before,
 .static2-guara-template3 .col-text button:before {
-    content: "\e64a";
+    /*content: "\e64a";*/
     font-size: 18px;
     font-family: "Stroke-Gap-Icons";
     margin-right: 7px;
@@ -3843,7 +3843,7 @@ h2.heading em {
 .testimonial-author {
     font-size: var(--base_font_size);
     text-transform: capitalize;
-    color: var(--headings_color);
+    color: var(--color_skin);
     margin: 5px 0 10px 0;
 }
 
